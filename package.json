@@ -1,0 +1,22 @@
+{
+  "name": "4_digital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97"
+  },
+  "scripts": {
+    "start": "tsc && node .build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
